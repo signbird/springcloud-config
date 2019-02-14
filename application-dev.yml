@@ -19,9 +19,6 @@ spring:
       kafka:
         binder:
           brokers: localhost
-          zkNodes: localhost
-          defaultZkPort: 2181
-          defaultBrokerPort: 9092
 
 management:
   security:
