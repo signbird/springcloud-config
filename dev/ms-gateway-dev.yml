@@ -30,7 +30,7 @@ zuul:
             path: /composite/**
             serviceId: composite-service
             strip-prefix: false
-#        serviceB:
-#            path: /demo/serviceB/**
-#            serviceId: demo-service-B
-#            strip-prefix: false 
+        content-center:
+            path: /contentCenter/**
+            serviceId: content-query
+            strip-prefix: false 
